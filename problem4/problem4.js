@@ -1,0 +1,5 @@
+function findMaxSumSubArray(k, arr) {
+  // your code here
+}
+
+module.exports = findMaxSumSubArray;
