@@ -10,7 +10,7 @@ test("Test 3", () => {
   expect(compare("KI", "KIJANG")).toEqual("KI");
 });
 test("Test 4", () => {
-  expect(compare("KUPU-KUPU")).toEqual("KUPU");
+  expect(compare("KUPU-KUPU", "KUPU")).toEqual("KUPU");
 });
 test("Test 5", () => {
   expect(compare("ILALANG", "ILA")).toEqual("ILA");
