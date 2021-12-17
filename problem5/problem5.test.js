@@ -4,7 +4,7 @@ test("Test 1", () => {
   expect(removeDuplicates([2, 3, 3, 3, 6, 9, 9])).toEqual(4);
 });
 test("Test 2", () => {
-  expect(removeDuplicates([2, 2, 4, 5, 6, 9, 9])).toEqual(6);
+  expect(removeDuplicates([2, 3, 4, 5, 6, 9, 9])).toEqual(6);
 });
 test("Test 3", () => {
   expect(removeDuplicates([2, 2, 2, 11])).toEqual(2);
